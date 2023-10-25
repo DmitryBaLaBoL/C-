@@ -7,6 +7,7 @@ using namespace MyNamespaceForFile;
 using namespace MyNamespaceForArray;
 int main(int argc, char* argv[])
 {
+    srand(time(NULL));
     // Включаем отображение русских символов
     setlocale(LC_ALL, "Russian");
     // Задаём необходимые переменные
